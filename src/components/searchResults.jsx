@@ -19,7 +19,7 @@ const SearchResults = (props) => {
         <section key={ index }>
           <div>
             <img src={ user.avatar_url } alt={ user.login } />
-            <Link to={ `search-github-users/user/${user.login}` }>
+            <Link to={ `/search-github-users/user/${user.login}` }>
               <h4>{ `@${user.login}` }</h4>
             </Link>
           </div>
