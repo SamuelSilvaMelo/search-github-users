@@ -1,9 +1,10 @@
 import React from 'react';
 import './notFound.css';
+import notFound from '../img/notFound.png';
 
 const NotFound = () => (
   <div className="not-found-div">
-    <img src="/not-found.png" alt="not-found-image" />
+    <img src={ notFound } alt="not-found-image" />
     Onde você está indo? Essa página não existe.
   </div>
 )

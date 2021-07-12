@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import logo from '../img/logo.png';
 import SearchResults from '../components/searchResults';
 import UserSearchBar from '../components/userSearchBar';
 
@@ -7,7 +8,7 @@ const Home = () => (
   <>
     <header className="home-header">
       <div className="header-logo">
-        <img src="/git-1.png" alt="GitHub Logo" />
+        <img src={ logo } alt="GitHub Logo" />
       </div>
       <h1 className="header-title">
         Encontre usuários no GitHub
