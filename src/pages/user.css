@@ -1,0 +1,159 @@
+/* userInformations.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.user-main-page {
+  padding: 30px;
+}
+
+.user-main-page-div {
+  display: flex;
+}
+
+.user-information {
+  border-right: 1px solid #cad1d9;
+  height: 100vh;
+  padding-right: 15px;
+  max-width: 300px;
+}
+
+.user-information img {
+  border-radius: 50% !important;
+  width: 260px;
+}
+
+.user-information h1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  color: #cad1d9;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.user-login {
+  color: #878f99;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.user-information a {
+  background-color: #22262d;
+  border: 1px solid #878f99;
+  border-radius: 8px;
+  color: #cad1d9;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px 16px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.user-information a:hover {
+  background-color: #32363d;
+  border: 1px solid #a2a9b1;
+}
+
+.user-bio {
+  color: #cad1d9;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.user-followers-and-following {
+  display: flex;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.user-followers-and-following :nth-child(2) {
+  color: #cad1d9;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.user-followers-and-following :nth-child(3) {
+  color: #878f99;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.user-followers-and-following :nth-child(4) {
+  line-height: 10px;
+  color: #878f99;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.user-followers-and-following :nth-child(5) {
+  color: #cad1d9;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.user-followers-and-following :nth-child(6) {
+  color: #878f99;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.user-information-repositories {
+  text-align: left;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.user-information-repositories header {
+  align-items: center;
+  display: flex;
+  color: #cad1d9;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.user-information-repositories svg {
+  margin-right: 5px;
+}
+
+.user-information-repositories span {
+  margin-right: 5px;
+}
+
+.repositories-list div {
+  border-bottom: 1px solid #4e5561;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.repositories-list a {
+  color: #6ea2fd;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.repositories-list a:hover {
+  text-decoration: underline;
+}
+
+.repositories-list span {
+  color: #cad1d9;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* userInformations.css */
