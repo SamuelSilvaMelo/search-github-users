@@ -8,9 +8,9 @@ const SearchResults = (props) => {
   const { searching, wasSearched, totalResult, userList } = props
 
   const notResults = () => (
-    <section className="nothing-researched">
+    <span className="nothing-researched">
       Nenhum resultado encontrado.
-    </section>
+    </span>
   );
 
   const results = () => (
@@ -19,7 +19,7 @@ const SearchResults = (props) => {
         <section key={ index }>
           <div>
             <img src={ user.avatar_url } alt={ user.login } />
-            <Link to={ `/search-github-users/user/${user.login}` }>
+            <Link to={ `user/${user.login}` }>
               <h4>{ `@${user.login}` }</h4>
             </Link>
           </div>
@@ -41,9 +41,9 @@ const SearchResults = (props) => {
   }
 
   return (
-    <section className="nothing-researched">
+    <span className="nothing-researched">
       Faça uma pesquisa!
-    </section>
+    </span>
   )
 }
 

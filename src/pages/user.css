@@ -15,10 +15,10 @@
 }
 
 .user-information {
-  border-right: 1px solid #cad1d9;
   height: 100vh;
-  padding-right: 15px;
+  margin: 15px;
   max-width: 300px;
+  width: 100%;
 }
 
 .user-information img {
@@ -111,8 +111,9 @@
 }
 
 .user-information-repositories {
+  border-left: 1px solid #cad1d9;
   text-align: left;
-  margin-left: 15px;
+  padding: 15px;
   width: 100%;
 }
 
@@ -130,6 +131,12 @@
 
 .user-information-repositories span {
   margin-right: 5px;
+}
+
+.repositories-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .repositories-list div {
@@ -157,3 +164,27 @@
 }
 
 /* userInformations.css */
+
+@media only screen and (max-width: 900px) {
+  
+  .user-main-page-div {
+    flex-direction: column;
+  }
+
+  .user-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: none;
+    max-width: none;
+  }
+
+  .user-information img {
+    align-self: center;
+  }
+
+  .user-information-repositories {
+    border-left: none;
+    border-top: 1px solid #cad1d9;
+  }
+}

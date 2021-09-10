@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path="/search-github-users/user/:id" render={ (props) => <UserPage { ...props } />} />
-        <Route exact path="/search-github-users/" render={ () => <Home /> } />
-        <Route path="/search-github-users/*" render={ () => <NotFound /> } />
+        <Route path="/user/:id" render={ (props) => <UserPage { ...props } />} />
+        <Route exact path="/" render={ () => <Home /> } />
+        <Route path="/*" render={ () => <NotFound /> } />
       </Switch>
     </div>
   );

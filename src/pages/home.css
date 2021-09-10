@@ -12,6 +12,9 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  max-width: 1500px;
+  min-width: 700px;
   padding: 20px;
 }
 
@@ -24,7 +27,7 @@ body {
   flex-grow: 2;
   font-family: monospace, Arial, Helvetica, sans-serif;
   font-style: oblique;
-  margin-right: 45px;
+  margin-right: auto;
 }
 
 .header-link {
@@ -64,9 +67,14 @@ body {
   opacity: 40%;
 }
 
+.nothing-researched {
+  display: flex;
+  justify-content: center;
+}
+
 .nothing-researched , .loading {
   color: white;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .user-list {
@@ -101,4 +109,20 @@ body {
   color: #00b4b4;
   cursor: pointer;
   font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .header-logo img {
+    width: 100px;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .header-link {
+    font-size: 1rem;
+  }
+
 }
