@@ -8,9 +8,9 @@ const SearchResults = (props) => {
   const { searching, wasSearched, totalResult, userList } = props
 
   const notResults = () => (
-    <section className="nothing-researched">
+    <span className="nothing-researched">
       Nenhum resultado encontrado.
-    </section>
+    </span>
   );
 
   const results = () => (
@@ -41,9 +41,9 @@ const SearchResults = (props) => {
   }
 
   return (
-    <section className="nothing-researched">
+    <span className="nothing-researched">
       Faça uma pesquisa!
-    </section>
+    </span>
   )
 }
 
