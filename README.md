@@ -78,6 +78,6 @@ $ npm start
 
 <h1 id="license">📝 License</h1>
 
-[Copyright](./LICENSE.md) (c) 2021 Samuel Silva Melo by MIT License.
+[Copyright](./LICENSE) (c) 2021 Samuel Silva Melo by MIT License.
 
 <a href="#welcome">⬆ Scroll To Top</a>
